@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var dbURI = 'mongodb://lafortu.net:27017/tellit';
+var dbURI = 'mongodb://tell_it_db:27017/tellit';
 
 // CONNECTION EVENTS
 // When successfully connected

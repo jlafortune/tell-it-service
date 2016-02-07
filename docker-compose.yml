@@ -1,0 +1,11 @@
+tell_it_service:
+  build : .
+  container_name: tell_it_service
+  ports:
+   - "8080:8080"
+  links:
+   - tell_it_db
+ 
+tell_it_db:
+  image: mongo:latest
+  container_name: tell_it_db
